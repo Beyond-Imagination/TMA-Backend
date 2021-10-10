@@ -1,0 +1,21 @@
+{
+    "cors": {
+        "origin": "*",
+        "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "preflightContinue": false,
+        "optionsSuccessStatus": 204
+    },
+    "db": {
+        "uri": "your uri"
+    },
+    "seoulSuggestionApi": {
+        "key": "72634152456b776c383656586e4a6f"
+    },
+    "batch": {
+        "enable": false,
+        "suggestionFetcher": "0 0 * * *",
+        "topicExtractor": "0 0 * * *",
+        "monthlyTrendExtractor": "0 0 1 * *",
+        "wordcloudGenerator": "5 0 1 * *"
+    }
+}
